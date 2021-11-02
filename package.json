@@ -1,0 +1,20 @@
+{
+  "config": {
+    "scope": "theorylabs",
+    "name": "nope"
+  },
+  "private": true,
+  "workspaces": [
+    "workspaces/**/*"
+  ],
+  "scripts": {
+    "cli": "xrun both"
+  },
+  "devDependencies": {
+    "@xarc/run": "TheoryLabs/xarc-run#meta",
+    "esm": "^3.2.25",
+    "oao": "^2.0.2",
+    "rimraf": "^3.0.2",
+    "ultra-runner": "^3.10.5"
+  }
+}
